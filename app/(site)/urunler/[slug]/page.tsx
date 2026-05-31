@@ -46,12 +46,15 @@ export default async function ProductDetailPage({
   })
   if (!product) notFound()
 
-  const specsByGroup = (product.specs ?? []).reduce<Record<string, any[]>>((acc, s: any) => {
-    const g = s.group ?? 'Genel'
-    acc[g] = acc[g] ?? []
-    acc[g].push(s)
-    return acc
-  }, {})
+  const specsByGroup: Record<string, any[]> = (product.specs ?? []).reduce(
+    (acc: Record<string, any[]>, s: any) => {
+      const g = s.group ?? 'Genel'
+      acc[g] = acc[g] ?? []
+      acc[g].push(s)
+      return acc
+    },
+    {} as Record<string, any[]>,
+  )
 
   return (
     <>

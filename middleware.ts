@@ -1,5 +1,23 @@
 import { NextResponse, type NextRequest } from 'next/server'
-import { defaultLocale, isLocale, pickLocale } from '@/lib/i18n'
+
+const locales = ['tr', 'en'] as const
+type Locale = (typeof locales)[number]
+const defaultLocale: Locale = 'tr'
+
+function isLocale(value: string): value is Locale {
+  return (locales as readonly string[]).includes(value)
+}
+
+function pickLocale(acceptLanguage?: string | null): Locale {
+  if (!acceptLanguage) return defaultLocale
+  const wanted = acceptLanguage
+    .split(',')
+    .map((s) => s.split(';')[0].trim().toLowerCase().slice(0, 2))
+  for (const l of wanted) {
+    if (isLocale(l)) return l
+  }
+  return defaultLocale
+}
 
 const PUBLIC_FILE = /\.(.*)$/
 const COOKIE = 'dd-locale'
@@ -28,10 +46,6 @@ export function middleware(req: NextRequest) {
 
   const segments = pathname.split('/').filter(Boolean)
 
-  // Already prefixed with a locale → internal rewrite to the same route
-  // without locale prefix. Layout x-pathname header'ından locale'i okur,
-  // I18nProvider doğru dictionary'i sağlar. Tüm sayfalar TR + EN için
-  // aynı app/(site) ağacını paylaşır.
   if (segments[0] && isLocale(segments[0])) {
     const stripped = '/' + segments.slice(1).join('/')
     const url = req.nextUrl.clone()
@@ -43,7 +57,6 @@ export function middleware(req: NextRequest) {
     return res
   }
 
-  // Choose locale: cookie > Accept-Language > default
   const cookieLoc = req.cookies.get(COOKIE)?.value
   const locale =
     cookieLoc && isLocale(cookieLoc)
