@@ -1,0 +1,104 @@
+{
+  "common": {
+    "discoverAll": "Tümünü keşfet",
+    "loadMore": "Daha fazla yükle",
+    "readMore": "Devamını oku",
+    "search": "Ara",
+    "menu": "Menü",
+    "close": "Kapat",
+    "open": "Aç",
+    "language": "Dil",
+    "theme": "Tema",
+    "skipToContent": "Ana içeriğe atla",
+    "backToTop": "Sayfanın başına dön",
+    "previewActive": "Önizleme modu aktif",
+    "disablePreview": "Kapat",
+    "all": "Tümü",
+    "noResults": "Sonuç bulunamadı",
+    "results": "sonuç",
+    "loading": "Yükleniyor…",
+    "error": "Bir hata oluştu",
+    "tryAgain": "Tekrar dene"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "corporate": "Kurumsal",
+    "products": "Ürünler",
+    "sustainability": "Sürdürülebilirlik",
+    "news": "Haberler",
+    "contact": "İletişim",
+    "requestQuote": "Teklif İste"
+  },
+  "products": {
+    "title": "Ürünler",
+    "collection": "Koleksiyon",
+    "filter": "Filtrele",
+    "filters": "Filtreler",
+    "narrowCollection": "Koleksiyonu daralt",
+    "reset": "Sıfırla",
+    "apply": "Uygula",
+    "applyN": "{n} filtre uygula",
+    "totalCount": "{n} ürün",
+    "categories": "Kategoriler",
+    "material": "Malzeme",
+    "finish": "Baskı / Lake",
+    "sustainability": "Sürdürülebilirlik",
+    "requestQuote": "Teklif İste",
+    "requestSample": "Numune Talep Et",
+    "specs": "Spesifikasyonlar",
+    "technicalSpecs": "Teknik Özellikler",
+    "details": "Detaylar",
+    "highlights": "Öne Çıkan",
+    "relatedTitle": "Yakın koleksiyondan",
+    "moq": "Min. Sipariş",
+    "downloads": "İndirilebilir Dosyalar",
+    "datasheet": "Teknik Föy"
+  },
+  "news": {
+    "title": "Haberler & Basın",
+    "feed": "Yayın Akışı",
+    "share": "Paylaş",
+    "readMore": "Daha fazlasını okuyun",
+    "relatedProducts": "İlgili Ürünler",
+    "readingTime": "{n} dk okuma",
+    "kind": {
+      "news": "Haber",
+      "press": "Basın Bülteni",
+      "case-study": "Vaka Çalışması"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "heading": "Birlikte çalışalım.",
+    "subheading": "Markanız için özel bir ambalaj çözümü mü arıyorsunuz? Ekibimiz 24 saat içinde size dönüş yapar.",
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "company": "Şirket",
+    "phone": "Telefon",
+    "subject": "Konu",
+    "selectSubject": "Bir konu seçin…",
+    "message": "Mesajınız",
+    "consent": "KVKK ve gizlilik politikası kapsamında bilgilerimin işlenmesini kabul ediyorum.",
+    "submit": "Mesajı Gönder",
+    "submitting": "Gönderiliyor…",
+    "success": "Talebiniz başarıyla iletildi.",
+    "errorTitle": "Mesaj gönderilemedi.",
+    "checkFields": "Lütfen formu kontrol edin."
+  },
+  "newsletter": {
+    "label": "Bülten",
+    "placeholder": "ornek@sirket.com",
+    "subscribe": "Abone ol",
+    "kvkkNote": "KVKK kapsamında bilgilerinizi sadece bülten gönderimi için kullanıyoruz."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  },
+  "errors": {
+    "404Title": "Aradığınız sayfa bulunamadı.",
+    "404Subtitle": "Bu sayfa kaldırılmış ya da hiç var olmamış olabilir.",
+    "500Title": "Bir şeyler ters gitti.",
+    "500Subtitle": "Sunucu tarafında beklenmedik bir hata oluştu.",
+    "backHome": "Ana sayfaya dön"
+  }
+}

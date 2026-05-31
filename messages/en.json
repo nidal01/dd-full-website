@@ -1,0 +1,104 @@
+{
+  "common": {
+    "discoverAll": "Discover all",
+    "loadMore": "Load more",
+    "readMore": "Read more",
+    "search": "Search",
+    "menu": "Menu",
+    "close": "Close",
+    "open": "Open",
+    "language": "Language",
+    "theme": "Theme",
+    "skipToContent": "Skip to main content",
+    "backToTop": "Back to top",
+    "previewActive": "Preview mode active",
+    "disablePreview": "Disable",
+    "all": "All",
+    "noResults": "No results",
+    "results": "results",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "tryAgain": "Try again"
+  },
+  "nav": {
+    "home": "Home",
+    "corporate": "About",
+    "products": "Products",
+    "sustainability": "Sustainability",
+    "news": "News",
+    "contact": "Contact",
+    "requestQuote": "Request a Quote"
+  },
+  "products": {
+    "title": "Products",
+    "collection": "Collection",
+    "filter": "Filter",
+    "filters": "Filters",
+    "narrowCollection": "Narrow the collection",
+    "reset": "Reset",
+    "apply": "Apply",
+    "applyN": "Apply {n} filters",
+    "totalCount": "{n} products",
+    "categories": "Categories",
+    "material": "Material",
+    "finish": "Finish",
+    "sustainability": "Sustainability",
+    "requestQuote": "Request a Quote",
+    "requestSample": "Request a Sample",
+    "specs": "Specifications",
+    "technicalSpecs": "Technical Details",
+    "details": "Details",
+    "highlights": "Highlights",
+    "relatedTitle": "From a kindred collection",
+    "moq": "Min. Order",
+    "downloads": "Downloads",
+    "datasheet": "Datasheet"
+  },
+  "news": {
+    "title": "News & Press",
+    "feed": "Latest Stories",
+    "share": "Share",
+    "readMore": "Read more stories",
+    "relatedProducts": "Related Products",
+    "readingTime": "{n} min read",
+    "kind": {
+      "news": "News",
+      "press": "Press Release",
+      "case-study": "Case Study"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Let's craft something together.",
+    "subheading": "Looking for a bespoke packaging solution for your brand? Our team will reply within 24 hours.",
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company",
+    "phone": "Phone",
+    "subject": "Subject",
+    "selectSubject": "Pick a subject…",
+    "message": "Your message",
+    "consent": "I agree to the processing of my information under the privacy policy.",
+    "submit": "Send Message",
+    "submitting": "Sending…",
+    "success": "Your request has been received.",
+    "errorTitle": "Could not send message.",
+    "checkFields": "Please review the form."
+  },
+  "newsletter": {
+    "label": "Newsletter",
+    "placeholder": "you@company.com",
+    "subscribe": "Subscribe",
+    "kvkkNote": "We use your information only to deliver the newsletter."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "errors": {
+    "404Title": "Page not found.",
+    "404Subtitle": "This page may have been removed or never existed.",
+    "500Title": "Something went wrong.",
+    "500Subtitle": "An unexpected error occurred on the server.",
+    "backHome": "Back to home"
+  }
+}
