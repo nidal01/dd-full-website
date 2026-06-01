@@ -13,7 +13,8 @@
     "seed": "tsx scripts/seed.ts",
     "seed:images": "tsx scripts/seed-images.ts",
     "seed:brand": "tsx scripts/seed-brand-assets.ts",
-    "seed:wp-products": "tsx scripts/seed-wp-products.ts"
+    "seed:wp-products": "tsx scripts/seed-wp-products.ts",
+    "seed:seo": "tsx scripts/seed-seo.ts"
   },
   "dependencies": {
     "@portabletext/react": "^3.1.0",

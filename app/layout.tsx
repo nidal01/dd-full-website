@@ -37,10 +37,6 @@ export async function generateMetadata(): Promise<Metadata> {
       description: settings?.defaultSeo?.metaDescription ?? tagline,
     },
     twitter: { card: 'summary_large_image' },
-    icons: {
-      icon: '/favicon.ico',
-      apple: '/icons/apple-touch-icon.png',
-    },
     manifest: '/manifest.webmanifest',
     appleWebApp: {
       title: siteName,
